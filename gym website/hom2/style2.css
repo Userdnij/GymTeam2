@@ -1,0 +1,148 @@
+body {
+    scroll-behavior: smooth;
+    font-family: cursive;
+    background-image: url('../images/gym_home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 30px;
+    color: orange;
+    background-color: black;
+    position: relative;
+    min-height: 110px;
+}
+
+.nav {
+    position: relative;
+    left: 600px;
+    display: flex;
+    gap: 120px;
+    font-size: 27px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+
+.login button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.login button:hover {
+    color: orange;
+    border-color: orange;
+
+}
+
+.form-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    left: 95px;
+    width: 1720px;
+    height: 730px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+
+}
+
+.abonementi_text{
+    margin-top: 350px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: orange;
+    font-size: 28px;
+    text-shadow: 2px 5px 4px rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.3s;
+    margin: 60px;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 5px orange;
+}
+
+.card h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+li {
+    padding: 10px;
+    font-size: 19px;
+}
+
+.price button{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.price button:hover {
+    color: orange;
+    border-color: orange;
+    cursor: pointer;
+}
+
